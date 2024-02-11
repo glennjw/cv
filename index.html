@@ -120,16 +120,25 @@
     <meta property="og:updated_time" content="2030-06-01T13:00:00+00:00">
   
 
-  
-
-
-  
-
-
-
-
-
   <title></title>
+
+  <style>
+    .center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Or any other height */
+    }
+    
+    img {
+      max-width: 70%;
+      max-height: 70%;
+      /* Optional: if you want the image to maintain its aspect ratio */
+      object-fit: contain;
+    }
+    </style>
+
+
 
 </head>
 
@@ -365,7 +374,9 @@
         <ul class="ul-edu fa-ul">
           
           <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
+            <i class="fa-li fas fa-graduation-cap">
+                
+            </i>
             <div class="description">
               <p class="course">PhD in Computer Science</p> 
               <p class="institution">8/2018 - 6/2024</p>
@@ -439,20 +450,23 @@
 
 <div class="row featurette">
   
+  <!--
   <div class="col-md-12 section-heading">
     <h1>Skills</h1>
-    
   </div>
-  
+  -->
 
   
 
-  
-  
-  
-  
+
+
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fa fa-code"></i></div>
+    <div class="featurette-icon">
+      <div class="center-div">
+        <img src="www.nikosirmpilatze.com_files/research_icon.png" alt="Centered Image">
+      </div>
+    </div>
+    
     <h3>Research</h3>
     <p><strong>IoT-edge systems</strong>, Data Science, Machine Learning</p>
   </div>
@@ -461,16 +475,24 @@
   
   
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fa fa-brain"></i></div>
-    <h3>Courses</h3>
-    <p><strong>Computer Networks</strong>, Distributed Systems, Edge Computing, Mobile Telecommunications, Algorithms, Programming</p>
+    <div class="featurette-icon">
+      <div class="center-div">
+        <img src="www.nikosirmpilatze.com_files/teaching_icon.png" alt="Centered Image">
+      </div>
+    </div>
+    <h3>TA Courses</h3>
+    <p>Cloud Computing, Intro to Programming, Discrete Math, Software Development</p>
   </div>
   
   
   
   
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fa fa-language"></i></div>
+    <div class="featurette-icon">
+      <div class="center-div">
+        <img src="www.nikosirmpilatze.com_files/experience_icon.png" alt="Centered Image">
+      </div>
+    </div>
     <h3>Experience</h3>
     <p>3GPP Networks: 2G, 3G, 4G, 5G, NBIoT</p>
   </div>
@@ -1208,7 +1230,7 @@
       <a href="index.html" id="back_to_top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x">
-          <img src="www.nikosirmpilatze.com_files/topbutton.png" width="50" height="50">
+          <img src="www.nikosirmpilatze.com_files/topbutton.png" width="80" height="80">
           </i>
         </span>
       </a>
